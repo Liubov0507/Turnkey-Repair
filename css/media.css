@@ -1,0 +1,53 @@
+@media only screen and (max-width: 575px) {
+    .container_header {
+        width: 100%;
+        justify-content: space-between;
+        height: 54px;
+        padding: 0 18px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 18px;
+    }
+
+    .header_nav,
+    .button_header {
+        display: none;
+    }
+
+    .header_logo {
+        margin: 0;
+    }
+
+    .header_phone {
+        margin: 0;
+    }
+
+    .promo {
+        min-height: 476px;
+        background: url(../img/promo/bg_mobile.png) center center/cover
+            no-repeat;
+    }
+
+    .promo_text {
+        padding: 85px 0 0 0;
+    }
+
+    .title {
+        font-size: 23px;
+    }
+
+    .promo_descr {
+        font-size: 14px;
+        padding: 16px 0 47px 0;
+    }
+    
+    .promo_button_calc,
+    .promo_button_submit {
+        width: 338px;
+        height: 51px;
+        margin-bottom: 26px;
+        margin-right: 0;
+    }
+}
