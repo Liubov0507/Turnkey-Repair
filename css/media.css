@@ -1,4 +1,4 @@
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 1300px) {
     .container_header {
         width: 100%;
         justify-content: space-between;
@@ -38,16 +38,239 @@
         font-size: 23px;
     }
 
+    .subtitle_big {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .subtitle {
+        font-size: 22px;
+    }
+
     .promo_descr {
         font-size: 14px;
         padding: 16px 0 47px 0;
     }
-    
+
     .promo_button_calc,
     .promo_button_submit {
         width: 338px;
         height: 51px;
         margin-bottom: 26px;
         margin-right: 0;
+    }
+    .completed {
+        min-height: 663px;
+        padding-top: 36px;
+    }
+
+    .completed_project {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .completed_project_descr {
+        font-size: 11px;
+        line-height: 1.5;
+        margin-top: 27px;
+        margin-bottom: 71px;
+        text-align: center;
+    }
+
+    .project_photo_desktop {
+        display: none;
+    }
+
+    .project_photo_mobile {
+        display: block;
+        margin: 0;
+    }
+
+    .project_photo_mobile_round {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 36px;
+        background: #e3b873;
+        box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+        border-radius: 100%;
+        margin-top: -139px;
+        margin-left: 14px;
+    }
+
+    .project_photo_mobile_round img {
+        width: 0.6em;
+    }
+
+    .completed_project_menu,
+    .arrow {
+        display: none;
+    }
+
+    .completed_project_text {
+        margin-top: 0;
+    }
+
+    .completed_wrapper_item {
+        margin-left: 0;
+        width: 140px;
+    }
+
+    .completed_wrapper_title {
+        font-size: 14px;
+        margin: 36px 0 15px;
+    }
+
+    .completed_wrapper_descr {
+        font-size: 11px;
+        line-height: 1.3;
+    }
+
+    .video {
+        margin-top: 0;
+        padding-top: 58px;
+        min-height: 880px;
+        background-color: #131313;
+    }
+
+    .video_header {
+        padding: 0;
+    }
+
+    .video_desktop {
+        display: none;
+    }
+
+    .video_mobile {
+        display: block;
+    }
+
+    .subtitle_img {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .video_content {
+        padding-bottom: 28px;
+    }
+
+    .video_content_round {
+        width: 37px;
+        height: 37px;
+    }
+
+    .video_content_round img {
+        width: 0.6em;
+    }
+
+    hr {
+        margin-bottom: 21px;
+    }
+
+    .video_descr {
+        width: auto;
+        font-size: 11px;
+        line-height: 1.8;
+        color: #ffffff;
+        margin-bottom: 0;
+        padding-bottom: 13px;
+    }
+
+    .video_form {
+        width: 340px;
+        height: 311px;
+        display: block;
+    }
+
+    .video_form p {
+        margin-top: 63px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    input[type="text"] {
+        width: 340px;
+        margin-left: 0;
+        color: #ffffff;
+        background: #131313;
+        border-bottom: 1px solid #ffffff;
+        padding-bottom: 8px;
+    }
+
+    .video_button {
+        width: 340px;
+        margin-top: 90px;
+    }
+
+    .button_video:hover {
+        box-shadow: 0px 10px 20px rgba(227, 184, 115, 0.1);
+    }
+
+    .video_checkbox {
+        margin-top: -155px;
+        margin-left: 0;
+    }
+
+    .video_checkbox_label {
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+    .types {
+        min-height: 2030px;
+    }
+
+    .types_header {
+        padding: 83px 0 0;
+    }
+
+    .types_wrapper {
+        flex-direction: column;
+        width: 100%;
+        min-height: 484px;
+    }
+
+    .types_wrapper_item {
+        width: 340px;
+        margin-bottom: 59px;
+    }
+    .types_wrapper_item img {
+        width: 340px;
+        height: 365px;
+    }
+
+    .types_wrapper_item_descr {
+        width: 270px;
+        min-height: 241px;
+        padding: 21px 41px 37px 28px;
+        margin-top: -141px;
+        margin-left: 0;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .subtitle_descr {
+        font-size: 15px;
+        margin-bottom: 13px;
+    }
+
+    .types_wrapper_item_descr li {
+        line-height: 27px;
+    }
+
+    .types_wrapper_item_price {
+        position: relative;
+        width: 190px;
+        height: 40px;
+        margin-left: 0;
+        padding-top: 10px;
+        margin-top: -20px;
+        font-size: 15px;
+    }
+
+    .request,
+    .save {
+        display: none;
     }
 }
